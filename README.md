@@ -17,3 +17,5 @@ before_script:
 script:
     - julia --color=yes -e 'using CheckTabs; checktabs("$your_package")'
 ```
+
+Note: Tabs can be prevented in Atom by changing the default settings. Activate the command palette (Ctrl + Shift + P on Windows/Linux, Shift + Cmd + P on Mac) and search for 'Whitespace: Convert Tabs To Spaces' or 'Whitespace: Convert All Tabs To Spaces'. Change back to default by selecting 'Whitespace: Convert Spaces To Tabs'.
